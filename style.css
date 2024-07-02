@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+/* CSS Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    color: #fff;
+    background-color: #00a2ff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 5px #0000001a;
+    
+ }
+header {
+    background-color:  #00a2ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;
+}
+#newColor{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#current-info, #goals, #links {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f3f6f9;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.link-button-container{
+    border: 1px solid #ddd;
+    background-color: rgb(0, 162, 255);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 40%;
+}
+.link-button-container:hover{
+    background-color: rgb(30, 25, 25);
+}
+.links-tag{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

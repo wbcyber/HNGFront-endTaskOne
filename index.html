@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>HNG 11 FRONT-END TASK ONE</h1>
+    </nav>
+    <header>
+      <h1 id="newColor" data-testid="slackDisplayName">
+        My Slack Display Name
+      </h1>
+      <div class="image-container">
+        <img
+          src="assets/profilePhoto.jpg"
+          alt="Slack Profile Picture"
+          data-testid="slackProfilePicture"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section id="current-info">
+        <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+        <p>Current Day: <span data-testid="currentDay"></span></p>
+        <p>Email: <span data-testid="slackEmail">.......@gmail.com</span></p>
+      </section>
+
+      <section id="goals">
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <ul>
+          <li>1: Become proficient in React and Node.js</li>
+          <li>2: Contribute to open source projects.</li>
+          <li>3: Build a better personal portfolio website with react.js</li>
+          <li>
+            4: Be a professional Frontend developer with mentees to train.
+          </li>
+          <li>5: Network with other developers and join tech communities.</li>
+          <li>
+            6: Build my own Tech community to help young tech euthusaiast
+            indifferent field grow.
+          </li>
+        </ul>
+      </section>
+
+      <section id="links">
+        <h2>To learn more about HNG click the button-links below</h2>
+        <ul>
+          <div class="link-button-container">
+            <li>
+              <a
+                href="https://hng.tech/learn"
+                class="links-tag"
+                data-testid="hngLink"
+                >HNG Learn</a
+              >
+            </li>
+          </div>
+          <div class="link-button-container">
+            <li>
+              <a
+                href="https://keyword.dog"
+                class="links-tag"
+                data-testid="keywordLink"
+                >Keyword.Dog</a
+              >
+            </li>
+          </div>
+          <div class="link-button-container">
+            <li>
+              <a
+                href="https://scrapeanyweb.site"
+                class="links-tag"
+                data-testid="scrapeanywebLink"
+                >ScrapeAnyWeb</a
+              >
+            </li>
+          </div>
+        </ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
